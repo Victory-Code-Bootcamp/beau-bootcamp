@@ -1,0 +1,40 @@
+.checkerboard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 320px;
+  }
+  
+  .row {
+    display: flex;
+    flex: 0 0 100%;
+  }
+  
+  .square {
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+  }
+  
+  .square:nth-child(odd) {
+    background-color: #ccc;
+  }
+  
+  .square:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  .row:nth-child(even).square:nth-child(odd),
+  .row:nth-child(odd).square:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  .row:nth-child(even).square:nth-child(even),
+  .row:nth-child(odd).square:nth-child(odd) {
+    background-color: #ccc;
+  }
+
+  ol{
+    list-style-type:lower-roman;
+  }
