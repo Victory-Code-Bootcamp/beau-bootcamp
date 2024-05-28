@@ -1,0 +1,57 @@
+/********* topbox css *********/
+#topbox, .box, #bottombox{
+    background-color: aquamarine;
+    margin:100px;
+    box-shadow: 0 9px #999;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+#topbox:hover{
+    background-color: #4CAF50;
+    color:white;
+}
+
+#topbox:active{
+    background-color: aqua;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#bottombox:hover{
+    background-color: #4CAF50;
+    color:white;
+}
+
+#bottombox:active{
+    background-color: aqua;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.box:hover{
+    background-color: #4CAF50;
+    color:white;
+}
+.box:active{
+    background-color: aqua;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.disabled{
+    opacity:0.4;
+    cursor:not-allowed;
+    background-color: aquamarine;
+    margin:100px;
+    box-shadow: 0 9px #999;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    text-align: center;
+}
