@@ -1,0 +1,39 @@
+Git Rebase:
+What is the purpose of the git rebase command?
+ - The git rebase command allows you to easily change a series of commits, modifying the history of your repository. You can reorder, edit, or squash commits together.
+How does it differ from git merge?
+ - The main difference between git merge and git rebase is that git merge is a way of combining changes from one branch (source branch) into another branch (target branch) where as git rebase is a way of moving the changes from one branch onto another branch.
+Describe a scenario where git rebase might be more beneficial than git merge.
+ - git rebase gives you the opportunity to squash insignificant commits, delete obsolete ones, and make sure everything else is in order before committing to the “official” project history. it keeps your commits tidy.
+
+Git Cherry-pick:
+What does the git cherry-pick command do?
+- Cherry picking is the act of picking a commit from a branch and applying it to another.
+Provide an example of when you might use git cherry-pick.
+- For an example scenario,say a developer has started work on a new feature. During that new feature development they identify a pre-existing bug. The developer creates an explicit commit patching this bug. This new patch commit can be cherry-picked directly to the main branch to fix the bug before it effects more users.
+
+Git Bisect:
+Explain the git bisect command and its use case.
+ - This command uses a binary search algorithm to find which commit in your project's history introduced a bug. You use it by first telling it a "bad" commit that is known to contain the bug, and a "good" commit that is known to be before the bug was introduced.
+How can git bisect help in debugging a codebase?
+ - The purpose of git bisect is to find the origin of a bug in your git history by starting with a known bad/new commit, which is the earliest point we know a bug exists, and a good/old commit which is the earliest point we know the bug did not exist.
+
+Git Reflog:
+What is git reflog and how can it be used?
+-Git reflog is a very useful tool for developers. Reference logs, sometimes known as "reflogs" keep track of when the tips of branches and other references in the local repository are modified. Reflogs can be used in various Git operations to specify the previous value of a reference.
+Describe a situation where git reflog would be particularly useful.
+- Git reflog is an isolated store used to maintain an accurate running history of modifications made to your repository's HEAD pointer. It is unaffected by destructive operations like “git reset —hard”. Also, git reflog can be used to recover lost commits or branches in the repository.
+
+Git Reset:
+Explain the differences between git reset --soft, git reset --mixed, and git reset --hard.
+ - Git Rest Soft – keep all changes. Git Reset Mixed – keep working copy but reset index. Git Reset Hard – discard all changes.
+When would you use each option?
+git reset --soft - The git reset soft command acknowledges that you want to undo some changes in your Git repo, but also preserve some changes and updates.
+git reset --mixed - performing a Git reset with the --mixed option will undo all the changes between HEAD and the specified commit, but will preserve your changes in the Working Directory, as unstaged changes.
+git reset --hard - In addition to unstaging changes, the --hard flag tells Git to overwrite all changes in the working directory, too. Put another way: this obliterates all uncommitted changes, so make sure you really want to throw away your local developments before using it.
+
+Git Blame:
+What does the git blame command do?
+ - The git blame command is used to examine the contents of a file line by line and see when each line was last modified and who the author of the modifications was.
+How can git blame be useful in understanding the history of a file?
+ - The high-level function of git blame is the display of author metadata attached to specific committed lines in a file. This is used to examine specific points of a file's history and get context as to who the last author was that modified the line.
