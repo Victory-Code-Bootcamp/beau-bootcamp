@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 html{
     background: url(../../../resources/images/photo.avif) no-repeat center fixed;
     background-size: cover;
@@ -8,26 +12,22 @@ color: white;
 text-shadow: 2px 2px 4px #000000;
 }
 
-* {
-    box-sizing: border-box;
-  }
-  
-  .row {
+.row {
     display: flex;
   }
   
-  
-  .column {
+.column {
     flex: 50%;
     padding: 10px;
     height: 1S00px; 
   }
-  header, nav, div, aside, footer, section, article{
+
+header, nav, div, aside, footer, section, article{
     border: 1px solid white;
     box-shadow: 5px 10px #888888;
   }
 
-  .head { grid-area: head; }
+.head { grid-area: head; }
 .nav { grid-area: nav; }
 .section { grid-area: section; }
 .article {grid-area: article}
