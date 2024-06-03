@@ -30,7 +30,7 @@ header, nav, div, aside, footer, section, article{
 .head { grid-area: head; }
 .nav { grid-area: nav; }
 .section { grid-area: section; }
-.article {grid-area: article}
+.article { grid-area: article; }
 .side { grid-area: side; }
 .foot { grid-area: foot; }
 
@@ -43,7 +43,6 @@ header, nav, div, aside, footer, section, article{
     'article article article side side side'
     'foot foot foot foot foot foot';
   gap: 10px;
-  
   padding: 10px;
 }
 
