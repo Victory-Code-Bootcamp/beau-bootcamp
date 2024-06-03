@@ -1,0 +1,19 @@
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900 */
+
+.roboto-slab {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+}
+
+body{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(203, 203, 203);
+    color:rgb(94, 94, 94)
+}
+p{
+    font-size: 2rem;
+}
