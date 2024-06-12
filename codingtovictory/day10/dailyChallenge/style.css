@@ -1,6 +1,11 @@
 body{
     background: cadetblue;
 }
-nav{
+li{
+    background: white;
     width:1.2rem;
+}
+h1{
+    -webkit-text-stroke: 1px white;
+    color:hotpink;
 }
