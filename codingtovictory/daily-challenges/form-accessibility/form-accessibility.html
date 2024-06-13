@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Accessability</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required autofocus placeholder="Enter your name" autocomplete="name">
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email" autocomplete="email">
+      
+        <label for="interests">Interests:</label>
+        <input type="checkbox" id="reading" name="interests" required value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="hiking" name="interests" required value="hiking">
+        <label for="hiking">Hiking</label>
+        <input type="checkbox" id="coding" name="interests" required value="coding">
+        <label for="coding">Coding</label>
+      
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" required value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" required value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" required value="other">
+        <label for="other">Other</label>
+      
+        <input type="submit" value="Submit">
+      </form>
+</body>
+</html>
