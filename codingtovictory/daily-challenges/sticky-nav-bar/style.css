@@ -1,0 +1,19 @@
+body{
+    background:rgb(249, 183, 176);
+}
+
+footer{
+    background: whitesmoke;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    
+}
+i{
+    font-size: 100px;
+    
+}
+div{
+    display:flex;
+    justify-content: space-evenly;
+}
