@@ -1,0 +1,22 @@
+:root{
+    --primary-color: #bada55;
+    --secondary-color: #333;
+
+    --padding-sm: 0.25rem; /* 4px */
+    --padding-md: 0.5rem; /* 8px */
+
+    --margins: 0.625rem; /* 10px */
+}
+
+h1{
+    color: var(--primary-color);
+}
+
+.nav-links{
+    border:3px solid var(--secondary-color);
+}
+
+.nav-link{
+    border:2px solid var(--primary-color);
+    margin:var(--margins);
+}
