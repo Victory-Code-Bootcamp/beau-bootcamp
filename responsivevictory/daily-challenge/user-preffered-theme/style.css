@@ -1,0 +1,11 @@
+section {
+    background-color: Canvas;
+    color: CanvasText;
+  }
+  section.light {
+    color-scheme: light;
+  }
+  section.dark {
+    color-scheme: dark;
+  }
+  
