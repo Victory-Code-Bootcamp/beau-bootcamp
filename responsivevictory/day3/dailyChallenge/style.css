@@ -1,10 +1,40 @@
-@media (min-width:480px) {
-    h1 {background: red;}
+@media only screen and (min-width:480px) {
+    h1 {background: red;
+        color: whitesmoke;
+        }
+        h2, h3{
+            background: rgb(255, 0, 204);
+            color: rgb(26, 25, 25);
+        }
+    
 }
 
 
-@media (min-width: 768px) {
-h1 {background: green;}
+@media only screen and (min-width: 768px) {
+h1 {background: green;
+    color:yellow;
+    }
+    h2, h3{
+        background: blue;
+        color: white;
+    }
+    p{
+        text-align: center;
+        color:rgb(0, 255, 128);
+    }
 }
 
-@media (max-width: 500px) { h1{background:yellow;} }
+@media only screen and (max-width: 500px) { 
+    h1{background:yellow;
+        color:blue;
+       }
+    h2, h3 {
+        background: rgb(0, 255, 128);
+        color: rgb(26, 25, 25);
+    }
+    p{
+        font-size:x-large;
+        color:blueviolet;
+    }
+    }
+
