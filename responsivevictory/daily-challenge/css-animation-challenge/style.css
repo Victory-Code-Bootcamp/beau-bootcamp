@@ -12,33 +12,39 @@
   .success {
     border-color: #04AA6D;
     color: green;
+   transition: background-color 1000ms;
   }
   
   .success:hover {
     background-color: #04AA6D;
     color: white;
+    
   }
   
   /* Blue */
   .info {
     border-color: #2196F3;
-    color: dodgerblue
+    color: dodgerblue;
+    transition: transform 2000ms;
   }
   
   .info:hover {
     background: rgb(30, 144, 255);
     color: white;
+    transform: scale(2,3)
   }
   
   /* Orange */
   .warning {
     border-color: #ff9800;
     color: orange;
+    transition:transform 2000ms;
   }
   
   .warning:hover {
     background: #ff9800;
     color: white;
+    transform: rotate(360deg)
   }
   
   .container{
@@ -47,8 +53,8 @@
   }
   button{
     margin: 10px;
-    justify-content:right;
 }
-hr{
-    border: 1px solid #f1f1f1;
+div{
+  justify-content:space-between;
 }
+
