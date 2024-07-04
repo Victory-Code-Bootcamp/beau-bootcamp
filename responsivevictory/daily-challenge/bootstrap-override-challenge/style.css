@@ -1,0 +1,12 @@
+.navbar-light{
+background: yellowgreen !important;
+}
+
+.btn-primary{
+    background: yellowgreen !important;
+}
+
+.card-body{
+    padding: 55px;
+    background: aliceblue;
+}
