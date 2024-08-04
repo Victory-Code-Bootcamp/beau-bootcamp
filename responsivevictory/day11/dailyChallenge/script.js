@@ -1,14 +1,8 @@
 
+for(let i = 1; i < 101; i++){
+    console.log(i % 3 ===0 && i % 5 === 0 ? 'fizzbuzz' : i % 3 === 0 ? 'fizz' : i % 5 === 0 ? 'buzz' : i );
+    }
 
-// for (i <= n, i++) {
-//     if (i % 3 === 0 && i % 5 === 0) {console.log("FizzBuzz");}
-//     else if
-//          (i % 3 === 0) {console.log("Fizz");}
-//     else if
-//          (i % 5 === 0) {console.log("Buzz");}
-//     else { // handles numbers not divisible by 3 or 5
-//           console.log(i);
-// }
 
 // let nums = [1,2,3,4,5,6,7,8,9,10]
  
@@ -25,6 +19,6 @@
 //     console.log(addEven())
 
 
-const words = [ "the", "at", "he", "she", "are", "two"]
-const wordLengths = words.map(word => word.toUpperCase());
-console.log(wordLengths);
+// const words = [ "the", "at", "he", "she", "are", "two"]
+// const wordLengths = words.map(word => word.toUpperCase());
+// console.log(wordLengths);
