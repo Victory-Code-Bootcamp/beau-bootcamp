@@ -23,4 +23,4 @@ console.log(findIntersection2([1, 2, 3, 4], [3, 4, 5, 6]))
 
 // The findIntersection2 function uses the filter method to create a new array that contains only the elements that are present in both array1 and array2. The includes method is used to check if an element is present in array2.
 
-module.export = findIntersection2
+module.exports = {findIntersection2}
